@@ -18,7 +18,7 @@ function getRandomInt(min, max)
 	var balls = []
 
 	var ref = new Ball(0, 0, 0);
-	var offset = ref.radius * 8;
+	var offset;
 
 	var sideLength;
 	var canvasDimension;
@@ -35,7 +35,8 @@ function getRandomInt(min, max)
 function init()
 {
 	ref = new Ball(0,0,0);
-
+	offset = ref.radius * 8;
+	
 	if(sideLength)
 		c.clearRect(0, 0, canvasDimension.x, canvasDimension.y);
 
