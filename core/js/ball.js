@@ -19,7 +19,7 @@ function Ball(x, y, number)
 	};
 
 	this.number = number;
-	this.radius = 5;
+	this.radius = document.getElementById("radius").value;
 
 	this.color = colors[number];
 

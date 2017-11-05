@@ -34,6 +34,8 @@ function getRandomInt(min, max)
 
 function init()
 {
+	ref = new Ball(0,0,0);
+
 	if(sideLength)
 		c.clearRect(0, 0, canvasDimension.x, canvasDimension.y);
 
