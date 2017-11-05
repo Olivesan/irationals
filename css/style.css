@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	background-color: #DDD;
+
+	font-family: Helvetica;
+}
+
+canvas{
+
+	margin-top: 10px;
+	display: inline-block;
+	position: absolute;
+		left: 325px;
+}
+
+#controls{
+	text-align: center;
+
+	width: 300px;
+	min-height: 10px;
+	display: inline-block;
+
+	position: absolute;
+		top: 0px;
+
+	background-color: #B32;
+	border-right: 3px #611 solid;
+	border-bottom: 3px #611 solid;
+
+	border-bottom-right-radius: 15px;
+
+	padding: 5px 5px 20px 5px;
+}
+
+#controls h1{
+	margin: 15px 0 10px 0;
+	text-align: center;
+
+	border-bottom: black 2px solid;
+}
+
+.spanText{
+	width: 100px;
+}
+
+table{
+	display: inline-block;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+
+td, th{
+	border: black 2px solid;
+	padding: 5px;
+}
